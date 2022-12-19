@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .boor{ 
+      @apply border border-black;
+  }
+  .boxtrans{
+    @apply transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 opacity-80 hover:scale-110 hover:bg-indigo-500 duration-300;
+  }
+  .boxtrans2{
+    @apply transition ease-in-out delay-150  hover:-translate-y-1 opacity-80 hover:scale-105 duration-300;
+  }
+  .boxprops{
+    @apply  md:py-20 w-1/2  py-5 rounded-xl border border-gray-200 flex items-center justify-center text-white font-semibold cursor-pointer;
+  }
+  .boor{
+    @apply border border-black;
+  }
+}

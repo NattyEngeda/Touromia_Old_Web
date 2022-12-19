@@ -1,0 +1,48 @@
+{
+  "name": "toutromia-old-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mantine/core": "^5.9.5",
+    "@mantine/dates": "^5.9.5",
+    "@mantine/hooks": "^5.9.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.0",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@mui/x-date-pickers": "^5.0.11",
+    "@syncfusion/ej2-react-dropdowns": "^20.3.60",
+    "@syncfusion/ej2-react-grids": "^20.3.62",
+    "dayjs": "^1.11.7",
+    "evergreen-ui": "^6.13.2",
+    "flowbite": "^1.5.5",
+    "flowbite-react": "^0.3.7",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-chatbot-kit": "^2.1.2",
+    "react-dom": "^18.2.0",
+    "react-hero-icon": "^0.0.7",
+    "react-router-dom": "^6.5.0",
+    "react-search-box": "^2.3.0",
+    "react-social-login-buttons": "^3.6.1",
+    "rsuite": "^5.23.3",
+    "styled-components": "^5.3.6",
+    "swiper": "^8.4.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "vite": "^3.0.7"
+  }
+}
