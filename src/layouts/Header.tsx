@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import logo from '../assets/images/logo/logo.png'
-import Autocomplete from '../components/Autocomplete'
-import { Menu, Button } from '@mantine/core';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../assets/images/logo/logo.png';
+import Autocomplete from '../components/Autocomplete';
+import { Menu,  } from '@mantine/core';
 import { ChevronDown } from 'react-hero-icon/solid';
 export default function Header() {
   return (

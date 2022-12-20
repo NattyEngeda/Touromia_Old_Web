@@ -3,7 +3,7 @@ import { Autocomplete, TextInput } from 'evergreen-ui'
 import Destinations from '../data/Destinations'
 import Places from '../data/Places'
 import { SearchIcon } from 'evergreen-ui'
-import { Navigate,useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 export default function Autocompletee() {
     const navigate = useNavigate();
