@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Destination() {
   return (
-                <div className='min-h-screen px-20 py-10 grid grid-cols-3 gap-10'>
+                <div className='min-h-screen px-5 lg:px-20 py-10 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                     {
                         Destinations.map((items) => (
                             <Link 

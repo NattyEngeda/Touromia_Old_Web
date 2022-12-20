@@ -12,10 +12,10 @@ export default function Header() {
         <div className='px-5 py-2'>
           <img src={logo} alt="Main Logo" className='h-auto w-44' />
         </div>
-        <div className='flex items-center px'>
+        <div className='hidden lg:flex items-center px'>
           <Autocomplete />
         </div>
-        <div className='flex flex-row justify-evenly items-center gap-10 text-md font-semibold px-20'>
+        <div className='hidden lg:flex flex-row justify-evenly items-center gap-10 text-md font-semibold px-20'>
           <Link to={'/'}>Home</Link>
           <Link to={'/Destination'}>Destination</Link>
           <Menu trigger="hover" openDelay={100} closeDelay={400}>

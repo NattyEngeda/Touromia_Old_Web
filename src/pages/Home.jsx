@@ -33,20 +33,20 @@ export default function Home() {
                         className='w-full md:w-96'
                         src={logo}
                         alt="Main Logo" />
-                    <h1 className='text-5xl font-bold font-serif text-white'>DREAM ,EXPLORE, DISCOVER OROMIA</h1>
+                    <h1 className=' text-3xl lg:text-5xl font-bold font-serif text-white text-center'>DREAM ,EXPLORE, DISCOVER OROMIA</h1>
                 </div>
 
             </div>
             {/* Section two */}
             <div className='grid grid-cols-1 md:grid-cols-2  divide-x-2 py-20 bg-gray-100'>
-                <div className='px-20'>
+                <div className='px-5 lg:px-20'>
                     <img
                         className='w-96'
                         src={logo}
                         alt="Main Logo" />
                 </div>
-                <div className='pr-10 px-20'>
-                    <h1 className='font-serif font-semibold text-5xl'>
+                <div className='lg:pr-10 px-5 lg:px-20'>
+                    <h1 className='font-serif font-semibold text-3xl lg:text-5xl'>
                         A Platform that connects 
                         Tour guides With Travellers in
                         Ethiopia
@@ -54,7 +54,7 @@ export default function Home() {
                 </div>
             </div>
             {/* Section Three */}
-            <div className='flex flex-col justify-center pt-10'>
+            <div className='flex flex-col justify-center pt-10 px-5'>
                 <div className='flex flex-col justify-center items-center gap-5'>
                     <h1 className='text-3xl'>What will be your next destination?</h1>
                     <p className='text-xl'>Choose destination for your next visit</p>
@@ -67,10 +67,10 @@ export default function Home() {
                         </div>
             
             {/* Section Four */}
-            <div className='h-auto py-1 grid grid-cols-2'>
+            <div className='h-auto py-1 grid grid-cols-1 lg:grid-cols-2'>
                 {/* Tour Guide Pic */}
-                <div className='flex flex-col items-center  h-full py-5 pl-32 gap-10'>
-                    <div className='border border-gray-200 shadow-xl px-32 py-1'>
+                <div className='flex flex-col items-center  h-full py-5 lg:pl-32 gap-10'>
+                    <div className='border border-gray-200 shadow-xl px-5 lg:px-32 py-1'>
                         <h1 className='text-2xl text-center'>Why be with a <br /> tour guide?</h1>
                     </div>
                     <div className='w-3/6 h-96 boor'>
@@ -82,7 +82,7 @@ export default function Home() {
 
                 </div>
                 {/* Tour Guide Description */}
-                <div className='px-20 py-10'>
+                <div className='px-5 lg:px-20 py-10'>
                     <ul className='list-disc space-y-1 text-sm'>
                         <li>There is no better way than a local guide to lead you to hidden places that only the locals know about.</li>
                         <li>Your guide is the best person to make you exchange with the inhabitants of the country, the city or the village that you visit and thus better know their way of life</li>
